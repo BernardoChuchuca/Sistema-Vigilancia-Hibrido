@@ -2,7 +2,7 @@
 
 Este proyecto implementa un sistema de seguridad inteligente que combina la velocidad de **C++** para la detección en tiempo real con la potencia de **Python (Deep Learning)** para la validación biométrica de amenazas.
 
-![Arquitectura del Sistema](diagrmafinal.jpg)
+![Arquitectura del Sistema](diagrama_final.jpg)
 
 ## 🚀 Características Principales
 
