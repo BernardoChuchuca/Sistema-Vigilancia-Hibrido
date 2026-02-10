@@ -11,7 +11,7 @@ Este proyecto implementa un sistema de seguridad inteligente que resuelve el pro
 El sistema sigue el patrón de diseño **Productor-Consumidor**, comunicando dos módulos independientes a través de **Sockets TCP/IP** para minimizar la latencia.
 
 ![Diagrama de Arquitectura](diagrama_final.png)
-*(Asegúrate de subir tu imagen 'diagrama_final.jpg' al repositorio para que se vea aquí)*
+
 
 ### 1. Módulo Centinela (C++ - Productor)
 * **Responsabilidad:** Vigilancia 24/7 y filtrado rápido.
@@ -28,7 +28,7 @@ El sistema sigue el patrón de diseño **Productor-Consumidor**, comunicando dos
 
 ---
 
-## 🚀 Características Clave
+##  Características Clave
 
 * **Comunicación IPC Eficiente:** Uso de Sockets locales (Puerto 65432) en lugar de lectura/escritura de archivos de texto, reduciendo el desgaste del disco y la latencia.
 * **Dataset Propio:** Entrenamiento realizado con muestras positivas de *Pascal VOC* y negativas de *Lorem Picsum* mediante scripts de *Data Engineering*.
@@ -39,7 +39,7 @@ El sistema sigue el patrón de diseño **Productor-Consumidor**, comunicando dos
 
 ---
 
-## 🛠️ Instalación y Requisitos
+##  Instalación y Requisitos
 
 ### Pre-requisitos
 * **Sistema Operativo:** Linux (Probado en Ubuntu) o Windows.
