@@ -6,11 +6,11 @@
 
 Este proyecto implementa un sistema de seguridad inteligente que resuelve el problema de los falsos positivos mediante una **Arquitectura Híbrida Desacoplada**. Combina la velocidad de procesamiento de **C++** para la detección en tiempo real con la potencia analítica de **Python (Deep Learning)** para la validación biométrica de amenazas.
 
-## 📐 Arquitectura del Sistema
+##  Arquitectura del Sistema
 
 El sistema sigue el patrón de diseño **Productor-Consumidor**, comunicando dos módulos independientes a través de **Sockets TCP/IP** para minimizar la latencia.
 
-![Diagrama de Arquitectura](diagrama_final.jpg)
+![Diagrama de Arquitectura](diagrama_final.png)
 *(Asegúrate de subir tu imagen 'diagrama_final.jpg' al repositorio para que se vea aquí)*
 
 ### 1. Módulo Centinela (C++ - Productor)
